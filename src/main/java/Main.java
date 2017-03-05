@@ -12,7 +12,7 @@ public class Main {
     post("/", (req, res) -> "{ \"color\": \"red\", "
     		+ "\"message\": \"¯\\_(ツ)_/¯\", " 
     		+ "\"notify\": true, "
-    		+ "\"message_format\": \"text\"}");
+    		+ "\"message_format\": \"html\"}");
     //\u00AF\\_(\u30C4)_/\u00AF\
   }
 
