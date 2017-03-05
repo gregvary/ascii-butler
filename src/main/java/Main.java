@@ -10,7 +10,7 @@ public class Main {
     staticFileLocation("/public");
 
     post("/", (req, res) -> "{ \"color\": \"red\", "
-    		+ "\"message\": \"Test\", " 
+    		+ "\"message\": \"¯\\_(ツ)_/¯\", " 
     		+ "\"notify\": true, "
     		+ "\"message_format\": \"text\"}");
     //\u00AF\\_(\u30C4)_/\u00AF\
