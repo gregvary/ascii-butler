@@ -9,7 +9,7 @@ public class Main {
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
-    post("/shrug", (req, res) -> "{ \"color\": \"red\", "
+    post("/", (req, res) -> "{ \"color\": \"red\", "
     		+ "\"message\": \"\u00AF\\_(\u30C4)_/\u00AF\", "
     		+ "\"notify\": true, "
     		+ "\"message_format\": \"text\"}");
